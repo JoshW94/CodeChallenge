@@ -1,0 +1,1242 @@
+/*
+Theme URI: http://www.creative-pod.com
+Authors:  Dean Jenkins
+Palette: Green - 93C141 / Blue - 60C3DC / Pink - DE3B8D / Grey - 929292
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.font-size-30 {font-size: 30px;}
+
+.digital-roots-font-h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 60px
+}
+
+.digital-roots-font-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color:#623D84;
+}
+
+.digital-roots-font-h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    color: #A6B736;
+}
+
+
+
+.contact-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px
+}
+
+.contact-address-p {
+    font-size: 14px
+}
+
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.ul-font-courses {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.faq h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #CBAD81;
+}
+
+.terms p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+ol {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-nav>li a {
+    text-transform: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #E61D72;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.navbar-fixed-top {
+    top: 0px;
+    border-width: 0 0 1px;
+    padding: 10px 0;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+    padding: 4px 0;
+}
+
+.nav-li-menu {padding-top: 4px;}
+.nav-li-menu-btn {margin-left: 40px;}
+
+
+
+/*Student Login*/
+.navbar-default .navbar-nav > li > a .white {
+    color: #fff;
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #8bc34a;
+    border-color: transparent;
+}
+
+
+
+.btn-login:hover {
+    color: #fff;
+    background-color: #4caf50;
+    border-color: transparent;
+}
+
+.btn-login:link {
+    color: #fff;
+    background-color: #4caf50;
+    border-color: transparent;
+}
+
+.btn-login:active {
+    color: #fff;
+    background-color: #61055E;
+    border-color: transparent;
+}
+
+.student-login-btn {
+    margin: 10px 0;
+}
+
+/*Student Login End*/
+
+.dropdown-menu> li> strong {
+        font-size: 16px;
+    padding-left: 10px;
+}
+
+.hire a:link{
+    color:#FFFFFF;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.carousel-inner p{
+    text-align: left;
+}
+
+footer h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+
+.about-section h2 {
+    font-family: 'Wire One', sans-serif;
+    font-size: 50px;
+}
+
+.apply-form-headings h2{
+    font-family: 'Wire One', sans-serif;
+    font-size: 40px;
+}
+
+.well-courses {
+    background-color: #FBFBFB;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.carousel-caption {
+    font-size: 60px;
+}
+
+
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size:30px;
+}
+
+.font-weight-100-small p {font-weight:100; font-size: 17px;}
+
+
+
+.collapse-text a {
+    color: #555555;
+}
+
+.collapse-text a:visited {
+    color: #777;
+}
+
+.green {color:#95C11E;}
+.blue {color:#36A9E0;}
+.pink {color:#E61D72;}
+.orange {color: rgb(255, 153, 51);}
+.white {color: #FFF;}
+.color-brown {color: #CBAD81;}
+.dark-blue {color: #2D3E50;}
+.star {color: #FFFF03;}
+.red {color: #FF0000;}
+.purple {color: #9A1096;}
+
+.green a{color:#95C11E;}
+.blue a{color:#36A9E0;}
+.pink a{color:#E61D72;}
+.orange a{color: rgb(255, 153, 51);}
+.dark-blue a{color: #2D3E50;}
+.white a{color:#FFFFFF;!important;}
+
+.green a:link{color:#95C11E;}
+.blue a:link{color:#36A9E0;}
+.pink a:link{color:#E61D72;}
+.orange a:link{color: rgb(255, 153, 51);}
+.dark-blue a:link{color: #2D3E50;}
+.white a:link {color:#FFFFFF;}
+
+.green a:visited {color:#95C11E;}
+.blue a:visited {color:#36A9E0;}
+.pink a:visited{color:#E61D72;}
+.orange a:visited{color: rgb(255, 153, 51);}
+.dark-blue a:visited{color: #2D3E50;}
+.white a:visited {color:#FFFFFF;}
+
+.dark-blue a:hover{color: #acbdd0;}
+
+.green-background {background:#95C11E;}
+.blue-background  {background:#36A9E0;}
+.purple-background  {background:#951B81;}
+.pink-background  {background:#E61D72;}
+.orange-background {background: rgb(255, 153, 51);}
+.white-background {background: #FFF;}
+.grey-background {background: #F1F1F1; padding: 40px 0;}
+.dark-gray-background {background: #333;}
+.dark-gray-background-opass {
+    background: rgba(51, 51, 51, 0.55);
+}
+
+.white-background-btn {background: #FFF;}
+.white-background-btn:hover {background: #f8f8f8;}
+
+
+.banner {
+    background: #4C5452;
+}
+
+.index-main{    
+    background: aliceblue;
+    padding: 60px 0;
+}
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding-top: 3px;
+    }
+
+    .top-nav-collapse {
+      padding: 10px;
+    }
+
+    .carousel-caption {
+      right: 30%;
+      left: 11%;
+      top: 30%;
+      padding-bottom: 0px;
+    }
+
+    .caption-section h1{
+        font-size:130px;
+    }
+
+    .carousel-indicators {
+    bottom: -60px;
+    }
+
+    .carousel h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: left;
+    padding: 10px 40px;
+    }
+
+
+    .carousel p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        font-size: 30px;
+        text-align: left;
+        padding: 10px 40px;
+        color: #4C5452;
+        text-shadow:none;
+    }
+}
+
+@media(max-width:767px) {
+    .navbar {
+        padding-top: 3px;
+    }
+
+    .navbar-fixed-top {
+        top: 0px;
+        border-width: 0 0 1px;
+        padding: 0;
+    }
+
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        padding: 0;
+        margin-left: 0px;
+    }
+
+    /*93C141 / Blue - 60C3DC / Pink - DE3B8D / Grey - 929292
+    */
+
+    .nav-margin-left-100 {
+        margin-left: 0;
+    }
+
+    .nav-margin-left-20 {
+        margin-left: 0px;
+    }
+
+    .margin-left-phone-10  {
+        margin-left: 10px;
+    }
+
+    .nav-blue-underline {
+        border-bottom: 3px dotted #36A9E0;
+    }
+
+    .nav-pink-underline {
+        border-bottom: 3px dotted #DE3B8D;
+    }
+
+    .nav-green-underline {
+        border-bottom: 3px dotted #95C11E;
+    }
+
+    .nav-orange-underline {
+        border-bottom: 3px dotted rgb(255, 153, 51);
+    }
+
+    .top-nav-collapse {
+      padding: 10px;
+    }
+
+    .carousel-caption {
+      right: 10%;
+      left: 10%;
+      top: 20%;
+      padding-bottom: 0px;
+    }
+
+    .caption-section h1{
+        font-size:130px;
+    }
+
+    .carousel-indicators {
+    bottom: -60px;
+    }
+
+    .carousel h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 40px;
+    }
+
+
+    .carousel p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: left;
+        padding: 10px 40px;
+        color: #4C5452;
+        text-shadow:none;
+    }
+}
+
+/*Testimonials*/
+.box-padding {
+    padding: 20px 30px;
+}
+
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 80%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url('../../assets/img/head7.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.header-home {
+  /*background: rgba(193, 141, 30, 0.8);*/
+  color: #fff;
+  border-radius: 20px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+
+}
+
+.header-home h1{
+    margin-top: 5px
+}
+.header-home h2{
+    padding-bottom: 7px
+}
+
+.top-box-header {
+    margin-top: 50px;
+    background: url('../../assets/img/codeacademy-5.png') no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top-box-header-dr {
+    margin-top: 50px;
+    background: url('../../assets/img/dig-roots-2.jpg') center center;
+   
+}
+
+
+.top-box-header-awards {
+    background: url('../../assets/img/award2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%
+}
+
+
+.digital-roots a:link {
+    color: #545858;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.digital-roots a:visited {
+    color: #7BB0BD;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.awards-h1 {
+    color: #B7A233;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.top-box-header hr {
+    border: 1px solid rgb(255, 153, 51);
+    margin-top: 0px;
+}
+
+.top-box-header h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+
+.top-box-header p {
+    color: #4C4B4B;
+}
+
+.about-section {
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+
+.services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #eee;
+
+}
+
+.footer-ul {
+    padding-left: 0;
+    border-left: 2px dotted;
+    padding-left: 15px;
+}
+
+.footer.secion h4 {
+    padding-bottom: 40px;
+}
+
+footer a:link {color: #acbdd0; background-color:transparent; text-decoration:none;}
+footer a:visited {color:#FFF; background-color:transparent; text-decoration:none;}
+footer a:hover   {color: #acbdd0; background-color:transparent; text-decoration:none;}
+footer a:active  {color: #acbdd0; background-color:transparent; text-decoration:none;}
+
+
+a:link {color: #8CA0B1;}
+
+a:visited {color: #8CA0B1;}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.list-group>li>a {
+    position: relative;
+    display: block;
+    padding: 20px 15px;
+        font-size: 16px;
+}
+
+.list-group>li>a:visited {background: #F3F3F3; }
+} 
+
+ul .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0px;
+}
+
+
+/********* Bootstrap Overrides Start **********/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #555;
+  background-color: transparent;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+  font-size: 17px;
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 100;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+  color: #CBAD81;
+  font-size: 120px;
+}
+
+.jumbotron h3 {
+    font-size: 40px;
+}
+
+.jumbotron p a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.jumbotron a {
+    text-decoration: underline;
+    color: #95C11E;
+}
+
+.jumbotron a:hover {
+    text-decoration: none;
+    color: #999;
+}
+
+.alert-gray {
+    background: rgba(224, 224, 224, 0.85); 
+    padding: 60px 10px;
+    margin: 50px 0px;
+    border-radius: 5px;
+}
+
+.alert-green a {
+    color: #FFF; 
+    text-decoration: underline;
+}
+
+.alert-green a:hover {
+    color: #999; 
+}
+
+.popover-title {
+    font-size: 34px;
+}
+
+
+
+
+
+/**** Bootstrap Overrides End *****/
+
+@media(max-width:767px) {
+    .intro-section {
+        height: 63%;
+        padding-top: 90px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .jumbotron .h1, .jumbotron h1 {
+      font-size: 80px;
+    }
+
+    .jumbotron h3 {
+        font-size: 40px;
+    }
+
+    .top-box {
+      margin-top: 20px;
+    }
+}
+
+
+
+/* Footer */
+
+footer {
+    padding: 50px 0;
+    background: #2D3E50;
+
+}
+footer  h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+footer h2 {
+    font-size: 50px;
+    margin: 0;
+
+}
+
+footer li {
+    list-style: none;
+    font-size: 16px;
+}
+
+
+.footer-bottom {
+    padding: 10px 0;
+    background: #E2E2E2;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+ 
+ul.centered {
+    margin: 2px auto;
+    line-height: 1.4;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.centered li {
+    display: inline;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+
+
+
+/*Apply Page*/
+
+.top-box {
+    margin-top: 40px;
+}
+
+.alert-course {
+   background: rgb(249, 249, 249);
+   border: 1px solid rgb(242, 242, 242);
+   padding: 20px 10px;
+}
+
+
+.boxed-inner {
+    padding: 20px 0 50px 0;
+}
+
+
+
+/*Apply New Courses Page*/
+
+
+.orange-section {
+    background: url('../../assets/img/codeacademy-8.png') no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.blue-section {
+    background: url('../../assets/img/head4.jpg') no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.green-section {
+    background: url('../../assets/img/codeacademy-1.png') no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.pink-section {
+    background: url('../../assets/img/head1.jpg') no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.courses-section {
+    margin: 30px 0;
+}
+
+.courses-section a:link {color:#FFFFFF; background-color:transparent; text-decoration:none;}
+.courses-section a:visited {color:#FFFFFF; background-color:transparent; text-decoration:none;}
+.courses-section a:hover   {color:#999; background-color:transparent; text-decoration:none;}
+
+
+.section-text {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.section-text h2 a {
+    color: #FFF;
+    font-size: 60px;
+}
+
+.section-text p a:link {
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+/*Reus*/
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-bottom-none {
+  margin-bottom: 0px;
+}
+
+.margin-none {
+  margin: 0px;
+}
+
+.margin-left-30{
+    margin-left:30px;
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+.padding-all-40 {padding: 40px;}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}
+
+.submit-button {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.grey{
+    color: grey;
+}
+.light-font{
+    font-weight: 300;
+}
+.btn-default {
+  color: #FFF;
+  background-color: transparent;
+  border-color: #FFF;
+  font-size: 17px;
+  font-family: 'wire-one', sans-serif;
+  margin-top: 15px;
+}
+.floatLeft{
+    float: left;
+}
+
+
+@media(max-width:1200px) {
+    .section-text h2 a {
+        color: #FFF;
+        font-size: 40px;
+    }
+}
+
+@media(max-width:992px) {
+    .section-text h2 a {
+        color: #FFF;
+        font-size: 36px;
+    }
+
+    .orange-section {
+        height: 250px;
+    }
+    .blue-section {
+        height: 250px;
+    }
+    .green-section {
+        height: 250px;
+    }
+    .pink-section {
+        height: 250px;
+    }
+
+    .section-text {
+        height: 250px;
+    }
+}
+
+@media(max-width:767px) {
+    .intro-section {
+        height: 63%;
+        padding-top: 90px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .jumbotron .h1, .jumbotron h1 {
+      font-size: 80px;
+    }
+
+    .jumbotron h3 {
+        font-size: 40px;
+    }
+
+    .top-box {
+      margin-top: 20px;
+    }
+
+
+    .boxed-inner-white {
+        margin: 20px 0;
+    }
+
+    /******** Nav Bar ********/
+    .navbar-toggle {
+        margin-top: 10px;
+    }
+
+    .navbar-header img {
+         margin-top: 3px;
+         margin-left: 10px; 
+    }
+
+    .top-box {
+        margin-top: 52px;
+    }
+
+    .about-section h2 {
+        font-size: 25px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 30px;
+    }
+
+    .courses-section {
+        margin: 20px 15px;
+    }
+
+    .section-text {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .section-text h2 a {
+        font-size: 30px;
+    }
+
+    .section-text p a {
+        font-size: 18px;
+        color: #FFF;
+    }
+
+    .orange-section {
+        height: 270px;
+    }
+
+    .blue-section {
+        height: 230px;
+    }
+
+    .green-section {
+        height: 270px;
+    }
+
+    .pink-section {
+        height: 230px;
+    }
+
+    .top-box-header h1 {
+        font-size: 40px;
+    }
+
+    .alert-gray {
+        background: rgba(224, 224, 224, 0.9);
+        padding: 20px 10px;
+        margin: 0px;
+    }
+
+    .alert-green h3 {
+        font-size: 30px;
+    }
+
+    .alert-margin {
+        margin-top: 30px;
+    }
+
+    .button a {
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    .button {
+        bottom: 40px;
+        left: 0px;
+        position: absolute;
+    }
+
+    .btn-block {
+        border-radius: 0px;
+    }
+
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+.big-margin-top {
+    margin-top: 50px;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.big-margin-bottom {
+    margin-bottom: 50px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+
+.profile {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav > li >  a {
+    color: #777;
+}
+
+.navbar-default .navbar-nav > li > .white >  a {
+    color: #FFF;
+}
+
+/*
+over-ride "Weak" message, show font in dark grey
+*/
+
+.progress-bar {
+    color: #333;
+} 
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+}
+
+    .form-control {
+      position: relative;
+      font-size: 16px;
+      height: auto;
+      padding: 10px;
+        @include box-sizing(border-box);
+
+        &:focus {
+          z-index: 2;
+        }
+    }
+
+.login {
+    background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+    margin: 140px 0;
+}
+
+form[role=login] {
+    color: #5d5d5d;
+    background: #f2f2f2;
+    padding: 26px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+}
+    form[role=login] img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    form[role=login] input,
+    form[role=login] button {
+        font-size: 18px;
+        margin: 16px 0;
+    }
+    form[role=login] > div {
+        text-align: center;
+    }
+    
+.form-links {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 50px;
+}
+.form-links a {
+    color: #fff;
+}
+
+.panel-default>.panel-heading {
+    font-size: 20px;
+}
+
+.margin-top-60 {    
+    margin-top: 60px;
+}
+
+.blog-sidebar {
+    margin-top: 160px;
+    border-left: 2px solid #8CA0B1;
+    padding-left: 40px;
+}
+
+/*Business Catylist*/
+
+.system-message, .system-error-message {
+    padding: 100px;
+    margin: 170px 0 130px 0;
+    border-radius: 10px;
+}
+
+.side-panel h4 {
+    font-size: 25px;
+    margin: 0 0 9px;
+}
+
+
+/*Blog*/
+
+.BlogRecentPost li, .BlogTagList li, .BlogPostArchive li {
+    font-size: 14px;
+    list-style: none;
+    margin: 0 0 9px;
+}
+
+.blog-post h2.post-title {
+    color: #8CA0B1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 30px
+}
+
+.blog-post h2.post-title {
+    border-bottom: none;
+}
+
+.panel-body {
+    padding: 15px;
+    background-color: #ffffff;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.panel-body h2 {
+    color: #fff;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #A6B736;
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.panel-footer p{
+    margin: 0;
+}
+
+@media(max-width:696px) {
+
+    .system-message, .system-error-message {
+    padding: 50px;
+    margin: 110px 0 70px 0;
+    border-radius: 10px;
+    }
+
+    .system-message h1 {
+        font-size: 40px
+    }
+}
+
+.adult-header {
+    background: url("../../assets/img/adult-evening-header.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.padding-top-bottom-30 {padding:30px 0;} 
+
+#find-us a {
+    color: grey;
+    background-color: transparent;
+    font-size: 18px;
+}
+#editor-container{
+    height:500px;
+    max-height: 1000px;
+}
+#browser-container{
+    height: 500px;
+    max-height: 1000px;
+}
+
+/*princes trust page*/
+
+.top-box-header-pt {
+    margin-top: 50px;
+    background: url(../../assets/img/dig-roots-2.jpg) center;
+    background-size: cover;
+
+}
+

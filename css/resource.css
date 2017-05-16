@@ -1,0 +1,543 @@
+
+h1{	font-family: 'Open Sans', sans-serif !important;}
+h2{	font-family: 'Open Sans', sans-serif !important;}
+h3{	font-family: 'Open Sans', sans-serif !important;}
+h4{font-family: 'Open Sans', sans-serif !important;}
+h5{font-family: 'Open Sans', sans-serif !important;}
+h6{font-family: 'Open Sans', sans-serif !important;}
+
+.mono{font-family: 'courier', sans-serif !important;}
+
+
+pre {
+  font-size: 20px;
+  
+}
+
+textarea{
+    margin-left: 5px;
+    width: 100%;
+    height: 150px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    border-radius: 10px;
+    background-size:  
+}
+.html {
+	background: #a64196;
+	color: #fff;
+	padding: 30px 0;
+    margin-top: 50px;
+}
+.input-box {
+    font-size: 40px;
+    height: 80px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 5px;
+    background: whitesmoke;
+    border-color: #efefef;
+}
+.text_edit {
+	width: 100%;
+    height: 400px;
+    background: #000;
+    color: #fff;
+}
+
+.text_view {
+	width: 100%;
+    border: 1px solid #999;
+    height: 400px;
+}
+
+.html h2{
+	font-weight: 100;
+
+	font-size:70px;
+}
+/*CheckCode Button on Code-Challenge.html*/
+.checkButton{
+	 border-radius: 15px;
+  background-color: #8bc34a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 6.333333% !important;
+}
+.checkButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.checkButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.checkButton:hover span {
+  padding-right: 25px;
+}
+
+.checkButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*End of CheckCode*/
+.list-li {font-size: 20px}
+
+.h1 {font-size: 30px;}
+.h2 {font-size: 26px;}
+.h3 {font-size: 22px;}
+.h4 {font-size: 20px;}
+.h5 {font-size: 18px;}
+
+.main-padding {
+	    padding: 0 100px;
+}
+
+.sidebar-header {    
+	background: #aaca4b;
+    color: #fff;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.sidebar-main {    
+	background: #e6e6e6;
+    color: #fff;
+    padding: 10px 10px;
+	width: 100%;
+
+}
+
+.sidebar-main p {
+	border-bottom: 1px dotted #fff;
+	font-size: 20px;
+	padding: 20px 10px;
+}
+
+.red-header{color: #FF0000;}
+
+/*reusables*/
+.margin-top-10{margin-top: 10px}
+.margin-top-20{margin-top: 20px}
+.margin-top-30{margin-top: 30px}
+.margin-top-40{margin-top: 40px}
+.margin-top-50{margin-top: 50px}
+.margin-top-60{margin-top: 60px;}
+.margin-top-70{margin-top: 70px;}
+.margin-top-80{margin-top: 80px;}
+.margin-top-90{margin-top: 90px;}
+.margin-top-100{margin-top: 100px;}
+
+.margin-bottom-10{margin-bottom: 10px}
+.margin-bottom-20{margin-bottom: 20px}
+.margin-bottom-30{margin-bottom: 30px}
+.margin-bottom-40{margin-bottom: 40px}
+.margin-bottom-50{margin-bottom: 50px}
+
+.margin-left-10 {margin-left: 10px;}
+.margin-left-20 {margin-left: 20px;}
+.margin-left-30 {margin-left: 30px;}
+
+.margin-right-10{margin-right: 10px;}
+
+
+
+.padding-left-0{padding-left: 0px}
+.z-index-1{z-index: 1}
+.z-index-minus-1{z-index: 0}
+
+.green{color: green;}
+.purple{color: #951b81;}
+.blue {color: blue;}
+
+/*Brand Color Meet the team*/
+.dean{color: #951b81;}
+.josh{color: #be1522;}
+.jayne{color: #662483;}
+.sophieF{color: #a2185b;}
+.sophie{color:  #d60b52;}
+.jack{color: #e61873;}
+
+.light-font{font-weight: 300;}
+.lg-bg{
+  background-color: rgba(211, 211, 211, 0.38);
+  padding: 50px;
+}
+
+.center-txt {text-align: center;}
+.img-shadow{box-shadow: 10px 10px 5px rgba(102, 36, 131, 0.59); border-radius: 20px;}
+.img-shadow-rh{box-shadow: -10px 10px 5px rgba(102, 36, 131, 0.59); border-radius: 20px;}
+
+.p-lg {font-size: 22px}
+/*.underline{text-decoration: underline;
+text-decoration-style: wavy; }*/
+
+/*Resource-CSS*/
+.preBoxRed{
+  height: 165px; width:100%; background-color: purple;
+}
+.preBoxLogo{
+  height: 163px;
+  width:100%; 
+  border-style: solid; 
+  border-radius: 1px; 
+  background-image: url(../img/logo/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+.preBoxLogoCenter{
+  height: 190px;
+  width:100%; 
+  border-style: solid; 
+  border-radius: 1px; 
+  background-image: url(../img/logo/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 44px;
+}
+.preBoxLogoCover{
+  height: 191px;
+  width: 100%; 
+  border-style: solid; 
+  border-radius: 1px; 
+  background-image: url(../img/logo/logo.png);
+  background-size: 106% 219px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 43px;
+  padding-bottom: 15px;
+}
+
+.solid{
+  height: 190px;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+}
+.colored{
+  height: 220px;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+  margin-top: 43px;
+}
+.dotted{
+  border-style: dotted;
+  border-width: 2px;
+  height: 192px;
+  width: 100%;
+  margin-top: 42px;
+}
+.radius{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    height: 220px;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.boxShadow{
+    margin-top: 42px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 10px 10px 8px #2b2b2b;
+    height: 218px;
+    width: 100%;
+}
+.borderTopBottom{
+  border-top-style: dashed;
+  border-bottom-style: dotted;
+  border-left-style: inset;
+  border-right-style: double;
+  border-width: 3px;
+  height: 274px;
+  width: 100%;
+  margin-top: 45px;
+}
+.lfBox{
+  height: 165px;
+  width: 100%;
+  border: solid 2px;
+}
+.bfBox{
+  height: 165px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 40px;
+}
+.cfBox{
+  height: 191px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 40px;
+}
+.largeFont{font-size: 30px;}
+.boldFont{font-weight: 900;}
+.italicFont{font-style:italic;}
+.customFont{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+.colorFont{
+color: #9c2989;}
+.margin20{
+  margin: 20px;
+  border: solid 2px blue;
+  height: 75%;
+  width: auto;
+}
+.center{
+  text-align: center;
+}
+.centerPadding{
+  text-align: center;
+  margin-top: 3%;
+}
+.bmBox{
+  height: 165px;
+  width: 100%;
+  border: solid 2px purple;
+  margin-top: 40px;
+}
+.bmBox1{
+  height: 165px;
+  width: 100%;
+  border: solid 2px purple;
+  margin-top: 40px;
+}
+.ulBox{
+  height: 193px;
+  width: 100%;
+  border: solid 2px;
+}
+.stBox{
+  height: 190px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 40px;
+}.stBox1{
+  height: 190px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 48px;
+}
+
+.paddingBox{
+padding: 10px;
+    border: solid 2px orange;
+    margin: 20px;
+}
+.box{
+height: 220px;
+width: 220px;
+border: solid 2px purple;
+
+}
+.underline{
+  text-decoration: underline;
+  font-size: 30px
+}
+.text-shadow{
+  text-shadow: 2px 2px grey;
+  font-size: 30px;
+}
+.text-align{
+  text-align:center;
+  font-size:30px;
+}
+.uppercase {
+    text-transform: uppercase;
+      font-size:30px;
+}
+
+.lowercase {
+    text-transform: lowercase;
+      font-size:30px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+      font-size:30px;
+}
+.ttBox{
+  height: 300px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 51px;
+}
+.letter-spacing{
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+.word-spacing{
+  word-spacing:20px;
+  font-size:30px;
+}
+.wsBox{
+  height: 192px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 38px;
+}
+
+.lsBox{
+  height: 189px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 140px;
+}
+.hover:hover {
+ color: blue;
+}
+
+.hovBox{
+  height: 163px;
+  width: 100%;
+  border: solid 2px;
+  margin-top: 1px;
+  font-size: 30px;
+}
+.transform{
+  width: 350px;
+  height: 250px;
+  background-color: purple;
+  color: white;
+  font-size: 30px;
+  /* Rotate div */
+  -ms-transform: rotate(15deg); /* IE 9 */
+  -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+  transform: rotate(15deg);
+  margin-top: 150px;
+}
+
+.transition {
+    width: 300px;
+    height: 300px;
+    background: purple;
+    transition: width 3s;
+    -webkit-transition: width 3s;
+    margin-top: 120px;
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+}
+
+.transition:hover{
+  width: 400px;
+}
+.transTransform{
+    width: 300px;
+    height: 300px;
+    background: purple;
+    margin-top: 130px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.rotate {
+  -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow: hidden;
+}
+
+.rotate:hover {
+  -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+.txt-bg{
+  padding: 20px;
+  border-radius: 20px;
+  color: black;
+}
+.meet-the-team-h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #623D84;
+}
+.hideme{
+  opacity: 0;
+}
+.dim-padding{
+  padding: 0px !important;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}.rotateimg270 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.btn-digi{
+  color: #fff;
+  background-color: #3abff0;
+  border-color: rgba(58, 191, 240, 0.55);
+}
+.btn-digi:hover,
+.btn-digi:focus,
+.btn-digi.focus,
+.btn-digi:active,
+.btn-digi.active,
+.open > .dropdown-toggle.btn-digi {
+  color: #fff;
+  background-color: rgba(58, 191, 240, 0.55);
+  border-color: rgba(58, 191, 240, 0.55);
+}
+.skip {
+    border-radius: 15px;
+    background-color: #951b81;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 21px;
+    margin-bottom: 5px;
+    width: 10%;
+}
+.skip {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+      float: right;
+    margin-right: 125px;
+}
+
