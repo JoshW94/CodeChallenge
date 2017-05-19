@@ -10,31 +10,31 @@ var questionCounter = 0;
 // Our object storing the questions and answers
 var questionsHtmlBasics = {
 		1 : {
-			"question": "Do a h1 tag with Hello to be printed to screen?",
+			"question": "In the editor box below, create a header tag &lt;h1> to show ‘Hello’ in the browser box on the right.",
 			"answer": "<h1></h1>" 
 		},
 		2 : {
-			"question": "Use a H2 tag with your name now?",
+			"question": "This time use a slightly different header tag <h2> with your name. Good luck!",
 			"answer": "<h2></h2>"
 		},
 		3 : {
-			"question": "Now use a P tag and pass it a quick Sentence?",
+			"question": "Now try using a paragraph tag <p> and write a quick sentence about yourself.",
 			"answer": "<p></p>"
 		},
 		4 : {
-			"question": "Awesome! Now use all three tags you've used so far so that a, H1 tag a H2 tag and finally a P tag are used?",
+			"question": "Awesome! Now use all three tags that you’ve used so far. So that’s a <h1> tag, <h2> tag and a <p> tag. ",
 			"answer" :"<h1></h1><h2></h2><p></p>"
 		},
 		5 : {
-			"question": "Lets try an Ordered List (ol) with 5 List Items(li)?",
+			"question": "Next let’s try an ordered list <ol> with 5 items <li> inside.",
 			"answer" : "<ol><li></li><li></li><li></li><li></li><li></li></ol>"
 		},
 		6 : {
-			"question": "Lets try an Unordered Lisi (ul) with 5 List Items(li)?",
+			"question": "Now let’s try an unordered list <ul> with 5 items <li> inside.",
 			"answer" : "<ul><li></li><li></li><li></li><li></li><li></li></ul>"
 		},
 		7 : {
-			"question": "Lets try adding an Image(img) with the source(src) being 'http://www.codezacademy.co.uk/assets/img/logo/logo.png'",
+			"question": "Well done, you’re doing great! Let’s add an image tag <img> with the source (src) being ‘http://www.codezacademy.co.uk/assets/img/logo/logo.png’.",
 			"answer": '<imgsrc="">'
 		}
 
@@ -54,16 +54,16 @@ var correctAnswers = 0;
 var wrongAnswers= 0;
 var clickCount= 1;
 var newTitle = "";
-var newTitleOl = "<li></li><li></li><li></li><li></li><li></li>" 
-
+var newTitleOl = "<li></li><li></li><li></li><li></li><li></li>";
+var newTitleImg = "	&ldquo;&rdquo;"
 function skipToNext() {
 	questionCounter++;
-	$('.questionCounter').text("Question Num:" + questionCounter);
+	$('.questionCounter').text("Q" + questionCounter);
 	$('#returnAnswer .questionTitle').text(questionsHtmlBasics[questionCounter].question);
 }
 function skipToPrevious() {
 	questionCounter--;
-	$('.questionCounter').text("Question Num:" + questionCounter);
+	$('.questionCounter').text("Q:" + questionCounter);
 	$('#returnAnswer .questionTitle').text(questionsHtmlBasics[questionCounter].question);
 } 
 
@@ -78,6 +78,7 @@ function copyToClipboard(element) {
   document.execCommand("copy");
   $temp.remove();
 }
+
 
 // Function to check users answer is correct agains answers In Questions Object
 function checkProgress(){
@@ -105,6 +106,7 @@ function checkProgress(){
 		// These if statements replace everything between the tags with nothing so there string can be what ever as we are only focusing on the syntax.
 		if(questionsHtmlBasics[1].question){
 			answer = answer.replace(/<h1>[\s\S]*?<\/h1>/, '<h1>' + newTitle + '<\/h1>');
+			console.log(answer);
 		}
 		 if (questionsHtmlBasics[2].question){
 			answer = answer.replace(/<h2>[\s\S]*?<\/h2>/, '<h2>' + newTitle + '<\/h2>');
@@ -121,12 +123,10 @@ function checkProgress(){
 		     if (questionsHtmlBasics[6].question){
 		   	 answer = answer.replace(/<ul>[\s\S]*?<\/ul>/, '<ul>' + newTitleOl + '<\/ul>');
 		     }
-		      if (questionsHtmlBasics[7].question){
-		   	  answer = answer.replace(/<ul>[\s\S]*?<\/ul>/, '<ul>' + newTitleOl + '<\/ul>');
+              if(questionsHtmlBasics[7].question){
+		      answer = answer.replace(/<img src="[\s\S]*?&rdquo;>/, '<imgsrc=' + newTitleImg +'>')
+		      console.log(answer);
 		      }
-		       // if(questionsHtmlBasics[8].question){
-		       //  	answer = answer.replace(/<img>)
-		       //  }
 		console.log(answer);
 
 		// Here we output a banner if they got it right or wrong

@@ -27,7 +27,7 @@ h1{
 .darkgrey{color: darkgrey}
 .max-width{	max-width: 97px;}
 /*Blues*/
-.blue-header{color:#3200FF;}
+.blue-header{color:#3200FF !important;font-family: 'Varela Round', sans-serif !important;}
 .blue1{
 	background-color: #050018;
 }
@@ -66,7 +66,7 @@ h1{
 }
 
 /*Reds*/
-.red-header{color: #FF0000;}
+.red-header{color: #FF0000 !important;font-family: 'Varela Round', sans-serif !important;}
 .red1{
 	background-color: #180000;
 }
@@ -104,7 +104,7 @@ h1{
 	background-color: #FFD0D0;
 }
 /*Greens*/
-.green-header{color:#007F17;}
+.green-header{color:#007F17 !important;font-family: 'Varela Round', sans-serif !important;}
 .green1{
 	background-color: #000C03 ;
 }
@@ -142,7 +142,7 @@ h1{
 	background-color: #D0E7D4 ;
 }
 /*Yellows*/
-.yellow-header{color: #FFED4F;}
+.yellow-header{color: #FFED4F !important;font-family: 'Varela Round', sans-serif !important;}
 .yellow1{
 	background-color: #181608 ;
 }
@@ -180,7 +180,7 @@ h1{
 	background-color: #FFFBDF ;
 }
 /*Purples*/
-.purple-header{color: #820072; }
+.purple-header{color: #820072 !important;font-family: 'Varela Round', sans-serif !important;}
 .purple1{
 	background-color: #0C000B ;
 }
@@ -218,7 +218,7 @@ h1{
 	background-color: #E8D0E5 ;
 }
 /*pinks*/
-.pink-header {color: #E82299;}
+.pink-header {color: #E82299 !important;font-family: 'Varela Round', sans-serif !important;}
 .pink1{
 	background-color: #16040E ; 
 }
@@ -256,7 +256,7 @@ h1{
 	background-color: #FAD6EC ; 
 }
 /*Oranges*/
-.orange-header{color: #FF7F00;}
+.orange-header{color: #FF7F00 !important; font-family: 'Varela Round', sans-serif !important;}
 .orange1{
 	background-color: #180C00 ;
 }
@@ -294,7 +294,7 @@ h1{
 	background-color: #FFE7D0 ;
 }
 /*Greys*/
-.grey-header{color: #808080;}
+.grey-header{color: #808080 !important;font-family: 'Varela Round', sans-serif !important;}
 .grey1{
 	background-color: #000000 ;
 }

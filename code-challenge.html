@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/codeChallenge.css">
     <link href="assets/css/base.css" rel="stylesheet">
     <link href="assets/css/resource.css" rel="stylesheet">
+    <link href="assets/css/colour-picker.css" rel="stylesheet">
     <!-- <link href="assets/css/colour-picker.css" rel="stylesheet"> -->
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
@@ -27,8 +28,6 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="assets/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Lightbox for images -->
-    <link href="assets/css/lightbox.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -137,22 +136,22 @@
     <div class="col-md-1 z-index-1  padding-right-0 padding-left-0">
         <div id="side-bar" class="left side-bar-height padding-top-75 padding-bottom-100">
             <div id="pop" class="item margin-tb-13">
-                    <a id="popover-1" tabindex="1" role="button" data-container="#side-bar" data-toggle="popover" data-trigger="focus" data-placement="right" data-title="Hints" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Phasellus vulputate arcu sit amet lacus pharetra ullamcorper. Nullam tortor neque, euismod ut orci efficitur, viverra consectetur enim. Vestibulum molestie, elit ut consequat viverra, risus urna placerat erat, in sagittis nisl erat sed dui. Aliquam erat volutpat. Maecenas in tellus posuere, ullamcorper quam sit amet, cursus odio. Donec luctus fringilla justo, ut facilisis nisi aliquet non. Vestibulum ornare libero feugiat neque eleifend, vel pretium velit hendrerit."><i class="fa fa-1-8x fa-question custom-icon black"></i></a>
-                </div>
+                <a class='josh-popover' id="popover-1" tabindex="1" role="button" data-html="true" data-container="#side-bar" data-toggle="popover" data-trigger="click" data-placement="right" data-title="Hints" data-content=""><i class="fa fa-1-8x fa-question custom-icon black"></i></a>
+            </div>
             <div class="item active margin-tb-15">
-            <a id="popover-2" tabindex="1" role="button" template="<div class='arrow popover-2'></div>" data-trigger="focus" data-container="#side-bar" data-toggle="popover" data-placement="right" data-title="Html Tags" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Phasellus vulputate arcu sit amet lacus pharetra ullamcorper. Nullam tortor neque, euismod ut orci efficitur, viverra consectetur enim. Vestibulum molestie, elit ut consequat viverra, risus urna placerat erat, in sagittis nisl erat sed dui. Aliquam erat volutpat. Maecenas in tellus posuere, ullamcorper quam sit amet, cursus odio. Donec luctus fringilla justo, ut facilisis nisi aliquet non. Vestibulum ornare libero feugiat neque eleifend, vel pretium velit hendrerit."><i class="fa fa-1-8x fa-code custom-icon black"></i></a>
-                </div>
-            <div class="item margin-tb-15">
-            <i class="fa fa-1-8x fa-css3 custom-icon black"></i>
-               </div>
-            <div class="item margin-tb-15">
-            <i class="fa fa-1-8x fa-eyedropper custom-icon black"></i>
-                </div> 
-            <div class="item margin-tb-15">
-                <i class="fa fa-1-8x fa-picture-o custom-icon black"></i>
+                <a class='josh-popover' id="popover-2" tabindex="1" role="button" data-trigger="click" data-container="#side-bar" data-toggle="popover" data-placement="right" data-title="Html Tags" data-content="" data-html="true"><i class="fa fa-1-8x fa-code custom-icon black"></i></a>
             </div>
             <div class="item margin-tb-15">
-                <i class="fa fa-1-8x fa-video-camera custom-icon black"></i>
+            <a class='josh-popover' id="popover-3" tabindex="1" role="button"  data-container="#side-bar" data-toggle="popover" data-placement="right" data-title="CSS " data-html="true" data-content=""><i class="fa fa-1-8x fa-css3 custom-icon black"></i></a>
+               </div>
+            <div class="item margin-tb-15">
+            <a class='josh-popover' id="popover-4" tabindex="1" role="button" data-html="true"  data-container="#side-bar" data-toggle="popover" data-placement="right" data-title="Colour Picker " data-content=""><i class="fa fa-1-8x fa-eyedropper custom-icon black"></i></a>
+                </div> 
+            <div class="item margin-tb-15">
+            <a class='josh-popover' id="popover-5" tabindex="1" role="button"  data-container="#side-bar" data-toggle="popover" data-placement="right" data-title="Images" data-content="" data-html="true">   <i class="fa fa-1-8x fa-picture-o custom-icon black"></i></a>
+            </div>
+            <div class="item margin-tb-15">
+             <a class='josh-popover' id="popover-6" tabindex="1" role="button"  data-container="#side-bar" data-toggle="popover" data-placement="right" data-title="Media" data-content="" data-html="true"><i class="fa fa-1-8x fa-video-camera custom-icon black"></i></a>
             </div>
         </div>
     </div>
@@ -160,13 +159,13 @@
 
         <h2 class="center challenge-font white"><img src="assets/img/logo/asset1.png" class="img-responsive img-code-dude"> Code Challenge </h2>
     </header>
-    <div class="col-md-11 margin-left-150 z-index-minus-1 padding-left-0">
+    <div class="col-md-11 margin-left-95 z-index-minus-1 padding-left-0">
         <div id="returnAnswer" class="questAnswer margin-top-30">
             <div class="row">
-                <h3 class="questionCounter large-font question-font purple col-md-1"></h3>
-                <h4  class="questionTitle question-font q col-md-8">Question</h4>
-                <button class="skip col-md-3" onclick="skipToPrevious()"><!-- <i class="fa fa-angle-left margin-right-10" aria-hidden="true"></i> --><span>Previous</span></button>
-<button class="skip col-md-3 col-md-offset-1 " onclick="skipToNext()"><span>Next</span><!-- <i class="fa fa-angle-right margin-left-10" aria-hidden="true"></i> --></button>          
+                <button class="skip " onclick="skipToPrevious()"><span>Previous</span></button>
+                <button class="skip float-r" onclick="skipToNext()"><span>Next</span></button>   
+                <h3 class="questionCounter title-pos large-font question-font bright-pink center"></h3>
+                <h4  class="questionTitle question-font q bright-pink center">Question</h4>       
                 <div class="success col-md-10 col-md-offset-1"> </div>
                 <h2 class="hidden-lg"></h2>
                 <script src="js/checkAnswer.js" type="text/javascript"></script>
@@ -175,11 +174,11 @@
 
         <div class="row">
             <div class="col-md-6">
-                <h2 class="center">Editor</h2>
+                <h2 class="float-l question-font pink-purple">Editor</h2>
                 <pre id="editor">2017</pre>
             </div>
             <div class="col-md-5">
-                <h2 class="center">Browser</h2>
+                <h2 class="float-r question-font pink-purple">Browser</h2>
                 <div class="hidden" id="return"></div>
             </div>
                 <h4 class="correctAnswers"> </h4>
@@ -189,7 +188,8 @@
         <div class="container">
             <div id="checkAnswer">
               
-              <button id="checkProgress" class="checkButton col-md-4 col-md-offset-1 " onclick="checkProgress()"><span>CheckCode</span></button>
+              <button id="checkProgress" class="checkButton col-md-4 col-md-offset-1 " onclick="checkProgress()"><span>Check Code</span></button>
+              <button id="hint" class="hintButton  " onclick="checkProgress()"><span>Hint</span></button>
                     
             </div>
         </div>
@@ -235,13 +235,85 @@
         
 
 </script>
+<!-- Popover Placement based on ID -->
+<script type="text/javascript">
+
+// var tips = [
+// {
+//     template: 'div class="popover" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--1"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>',
+//     content: ''
+// }
+// {
+//     template: 'div class="popover" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--2"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>',
+//     content: 
+// }
+// ]
+    $(document).ready(function(){
+    // #popover-1 placement
+    $('#popover-1').popover({
+        template: '<div class="popover" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--1"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>' ,
+        content: '<p> Here will be all the hints and tips you need</p>'
+    });
+    $('#popover-2').popover({
+        template: '<div class="popover" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--2"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>' ,
+        content: "<h2 style='text-align: center;'>Header Tags</h2><pre>&lt;h1&gt;Example of a H1 Tag &lt;/h1&gt;</pre><pre>&lt;h2>Example of a H2 Tag &lt;/h2></pre><pre>&lt;h3>Example of a H3 Tag &lt;/h3></pre><pre>&lt;h4>Example of a H4 Tag &lt;/h4></pre><pre>&lt;h5>Example of a H5 Tag &lt;/h5></pre><h2 style='text-align: center;'>Paragraph Tag</h2><pre>&lt;p> Lorem ipsum dolor sit amet, onsectetur adipiscing elit, &lt;/p></pre><h2 style='text-align: center;'>Img Tag</h2><pre>&lt;img src='www.codezacademy.co.uk/assets/img/logo/logo.png' alt='logo'/></pre><h2 style='text-align: center;'>Iframe Tag</h2><pre>&lt;iframe src='https://player.vimeo.com/video/145257661'>&lt;/iframe></pre><h2 style='text-align: center;'>List Tags</h2><pre>&lt;ul><br> &lt;li> Red &lt;/li><br> &lt;li> green &lt;/li><br> &lt;li> blue &lt;/li><br> &lt;li> Yellow &lt;/li><br>&lt;/ul></pre>"
+    });
+    $('#popover-3').popover({
+        template: '<div class="popover" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--3"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>' ,
+        content: '<div class="row"><h4 class="purple margin-left-15 text-center question-font">Here are a list of CSS Selectors for you to use in your code, Its cool to be Stylish!</h4><h4 class="purple margin-left-15 margin-top-20 text-center question-font">For this code challenge we can only achive the results from our CSS selectors with the use on In-line Styling e.g.<br> &lt;h1 <span style="background-color: yellow;">style="color:blue;"</span>>Hello&lt;/h1></h4><div class="col-md-6"> <ul><h4>Background</h4><li>background-image : url(../) </li><li>background-color : #red</li><li>background-position : top left | top center | top right | center left | center center | center right | bottom left | bottom center | bottom right </li><li>background-repeat : repeat | repeat-x | repeat-y | no-repeat </li> </ul> #div2  </div> <div class="col-md-6"> <ul><h4>Border</h4><li>border: border-width | border-style | border-color </li> <li> border-width: thin | medium | thick | length </li><li>border-style: none | hidden | dotted |dashed | solid | double | groove | ridge | inset | outset </li> <li>border-color : color </li><li>border-radius: border-radius: 20px | border-top-right-radius: 20px | border-bottom-right-radius: 20px | border-bottom-left-radius: 20px | border-top-left-radius: 20px</li>  '
+    });
+    $('#popover-4').popover({
+        template: '<div class="popover right-1" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--4"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>' ,
+        content: '<div class="row"><h2 class="blue-header"> Blue </h2><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue1"><p align="center" class="margin-none padding-top-50 text-center">#050018</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue2"><p class="margin-none padding-top-50 text-center">#0E0046</p></div></div> <div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue3"><p class="margin-none padding-top-50 text-center">#170074</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue4"><p class="margin-none padding-top-50 text-center">#2000A3</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue5"><p class="margin-none padding-top-50  text-center">#2900D1</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue6"><p class="margin-none padding-top-50 text-center">#3200FF</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue7"><p class="margin-none padding-top-50 text-center">#572EFF</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue8"><p class="margin-none padding-top-50 text-center">#7C5CFF</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue9"><p class="margin-none padding-top-50 text-center">#A18BFF</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue10"><p class="margin-none padding-top-50 text-center">#B4A2FF</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue11"><p class="margin-none padding-top-50 text-center">#C7B9FF</p></div></div><div class="col-xs-1 margin-bottom"><div class="colour-box img-rounded blue12 max-width"><p class="margin-none padding-top-50 text-center">#D9D0FF</p></div></div></div><div class="row"><h2 class="red-header"> Red </h2><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red1"><p class="margin-none padding-top-50 text-center">#180000</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red2"><p class="margin-none padding-top-50 text-center">#460000</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red3"><p class="margin-none padding-top-50 text-center">#740000</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red4"><p class="margin-none padding-top-50 text-center">#A30000</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red5"><p class="margin-none text-center padding-top-50">#D10000</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red6"><p class="margin-none padding-top-50 text-center">#FF0000</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red7"><p class="margin-none padding-top-50 text-center">#FF2E2E</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red8"><p class="margin-none padding-top-50 text-center">#FF5C5C</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red9"><p class="margin-none padding-top-50 text-center">#FF8B8B</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red10"><p class="margin-none text-center padding-top-50">#FFA2A2</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red11"><p class="margin-none padding-top-50 text-center">#FFB9B9</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded red12 max-width"><p class="margin-none padding-top-50 text-center">#FFD0D0</p></div></div></div><div class="row"><h2 class="green-header"> Green </h2><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green1"><p class="margin-none padding-top-50 text-center">#000C03</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green2"> <p class="margin-none padding-top-50 text-center">#002307</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green3"><p class="margin-none padding-top-50 text-center">#003A0B</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green4"><p class="margin-none padding-top-50 text-center">#00510F</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green5"><p class="margin-none padding-top-50 text-center">#006813</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green6"><p class="margin-none padding-top-50  text-center">#007F17</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green7"><p class="margin-none padding-top-50 text-center">#2E9641</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green8"> <p class="margin-none padding-top-50 text-center">#5CAD6B</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green9"><p class="margin-none padding-top-50 text-center">#8BC495</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green10"><p class="margin-none padding-top-50 text-center">#A2D0AA</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green11"><p class="margin-none padding-top-50 text-center">#B9DCBF</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded green12 max-width"><p class="margin-none padding-top-50 text-center">#D0E7D4</p></div></div></div><div id="yellow-colours" class="row"> <h2 class="yellow-header"> Yellow </h2><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow1"><p class="margin-none padding-top-50 text-center">#181608</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow2"><p class="margin-none padding-top-50 text-center">#464116</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow3"><p class="margin-none padding-top-50 text-center">#746C24</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow4"><p class="margin-none padding-top-50 text-center">#A39733</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow5"><p class="margin-none padding-top-50 text-center">#D1C241</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow6"><p class="margin-none padding-top-50 text-center">#FFED4F</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow7"><p class="margin-none padding-top-50 text-center">#FFF06F</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow8"><p class="margin-none padding-top-50 text-center">#FFF38F</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow9"><p class="margin-none padding-top-50 grey-text text-center">#FFF6AF</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow10"><p class="margin-none padding-top-50 grey-text text-center">#FFF8BF</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow11"><p class="margin-none padding-top-50 grey-text text-center">#FFFACF</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded yellow12 max-width"><p class="margin-none padding-top-50 grey-text text-center">#FFFBDF</p></div></div></div><div class="row"><h2 class="purple-header"> Purple </h2><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple1"><p class="margin-none padding-top-50 text-center">#0C000B</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple2"><p class="margin-none padding-top-50 text-center">#240020</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple3"><p class="margin-none padding-top-50 text-center">#3C0034</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple4"><p class="margin-none padding-top-50 text-center">#530049</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple5"><p class="margin-none padding-top-50 text-center">#6B005E</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple6"><p class="margin-none padding-top-50 text-center">#820072</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple7"><p class="margin-none padding-top-50 text-center">#982E8B</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple8"><p class="margin-none padding-top-50 text-center">#AF5CA5</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple9"><p class="margin-none padding-top-50 text-center">#C68BBE</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple10"><p class="margin-none padding-top-50 text-center">#D1A2CB</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple11"><p class="margin-none padding-top-50 text-center">#DCB9D8</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded purple12 max-width"><p class="margin-none padding-top-50 text-center">#E8D0E5</p></div></div></div><div class="row"><h2 class="pink-header"> Pink </h2><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink1"><p class="margin-none padding-top-50 text-center">#16040E</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink2"><p class="margin-none padding-top-50 text-center">#400A2A</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink3"><p class="margin-none padding-top-50 text-center">#6A1046</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink4"><p class="margin-none padding-top-50 text-center">#941662</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink5"><p class="margin-none padding-top-50 text-center">#BE1C7E</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink6"><p class="margin-none padding-top-50  text-center">#E82299</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink7"><p class="margin-none padding-top-50 text-center">#EC4AAB</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink8"><p class="margin-none padding-top-50 text-center">#F072BE</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink9"><p class="margin-none padding-top-50 text-center">#C68BBE</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink10"><p class="margin-none padding-top-50 text-center">#F6AED9</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink11"><p class="margin-none padding-top-50 text-center">#F8C2E3</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded pink12 max-width"><p class="margin-none padding-top-50 text-center">#FAD6EC</p></div></div></div><div class="row"><h2 class="orange-header"> Orange </h2><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange1"><p class="margin-none padding-top-50 text-center">#180C00</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange2"><p class="margin-none padding-top-50 text-center">#462300</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange3"><p class="margin-none padding-top-50 text-center">#743A00</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange4"><p class="margin-none padding-top-50 text-center">#A35100</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange5"><p class="margin-none padding-top-50 text-center">#D16800</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange6"><p class="margin-none padding-top-50 text-center">#FF7F00</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange7"><p class="margin-none padding-top-50 text-center">#FF962E</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange8"><p class="margin-none padding-top-50 text-center">#FFAD5C</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange9"><p class="margin-none padding-top-50  text-center">#FFC48B</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box orange10"><p class="margin-none padding-top-50 text-center">#FFD0A2</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange11"><p class="margin-none padding-top-50 text-center">#FFDCB9</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded orange12 max-width"><p class="margin-none padding-top-50 text-center">#FAD6EC</p></div></div></div><div class="row"><h2 class="grey-header"> Grey </h2><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey1"><p class="margin-none padding-top-50 text-center">#000000</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey2"><p class="margin-none padding-top-50 text-center">#0C0C0C</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey3"><p class="margin-none padding-top-50 text-center">#232323</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey4"><p class="margin-none padding-top-50 text-center">#3B3B3B</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey5"><p class="margin-none padding-top-50 text-center">#525252</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey6"><p class="margin-none padding-top-50  text-center">#696969</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey7"><p class="margin-none padding-top-50 text-center">#808080</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey8"><p class="margin-none padding-top-50 text-center">#979797</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey9"><p class="margin-none padding-top-50 text-center">#AEAEAE</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey10"><p class="margin-none padding-top-50 text-center grey-text">#C5C5C5</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey11"><p class="margin-none padding-top-50 text-center grey-text">#DCDCDC</p></div></div><div class="col-sm-1 margin-bottom"><div class="colour-box img-rounded grey12 max-width"><p class="margin-none padding-top-50 text-center grey-text">#F3F3F3</p></div></div></div>'
+    });
+    $('#popover-5').popover({
+        template: '<div class="popover" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--5"></div><h3 class="popover-title purple"></h3><div class="popover-content"></div></div>' ,
+        content: '<div class="row"><h4 class="margin-left-15 question-font text-center">Click on the image you wish to use in your code, Then copy the source code from the alert Box at the top of your screen</h4> <a href="#" onclick="docpyCat()"> <img src="assets/img/example-pics/cat.jpg" name="cat" class="img-responsive col-sm-6"></a><a href="#" onclick="docpyMW()"><img src="assets/img/example-pics/milky-way.jpg" name="MW" class="img-responsive col-sm-6"></a><a href="#" onclick="docpyBall()"><img src="assets/img/example-pics/the-ball.jpg" name="Ball" class="img-responsive col-sm-6 margin-top-30"></a><a href="#" onclick="docpyXbox()"><img src="assets/img/example-pics/xbox.jpg" name="Xbox" class="img-responsive col-sm-6 margin-top-30"></a><input type="hidden" name="ih" /></div>'
+    });
+    $('#popover-6').popover({
+        template: '<div class="popover" role="tooltip" style="margin-top:10px;"><div class="arrow arrow--6"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>' ,
+        content: '<div class="row"> <div class="col-md-10 col-md-offset-1"><iframe width="853" height="480" src="https://www.youtube.com/embed/8f4BpGbVnDk" frameborder="0" allowfullscreen></iframe><p> Code to Copy</p><pre>&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/8f4BpGbVnDk" frameborder="0" allowfullscreen>&lt;/iframe></pre></div></div><div class="row"> <div class="col-md-10 col-md-offset-1"><iframe width="853" height="480" src="https://www.youtube.com/embed/g-jwWYX7Jlo" frameborder="0" allowfullscreen></iframe><p> Code to Copy</p><pre>&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/g-jwWYX7Jlo" frameborder="0" allowfullscreen>&lt;/iframe></pre></div></div>'
+    });
+
+//$('body').on('change', '#popover-1', function(){
+  //  console.log($(this).children())
+//});
+
+    $('#popover-1').on('show.bs.popover', function () {
+        //$('.arrow').css('top',parseInt($('.arrow').css('top')) + 0.4531 + "%" + " !important")
+        $('.arrow').css('top', '0px');
+        console.log($(this).parent())    // #popover-2 placement
+})
+})
+</script>
 
 <script type="text/javascript">
 
 
- function docpy()
+ function docpyCat()
   {
-    var imgSrc = document.getElementsByName("simg");
+    var imgSrc = document.getElementsByName("cat");
+    var hrc = document.getElementsByName("ih");
+    hrc[0].value =   imgSrc[0].getAttribute("src");
+    alert(hrc[0].value);
+
+  } function docpyBall()
+  {
+    var imgSrc = document.getElementsByName("Ball");
+    var hrc = document.getElementsByName("ih");
+    hrc[0].value =   imgSrc[0].getAttribute("src");
+    alert(hrc[0].value);
+
+  } function docpyMW()
+  {
+    var imgSrc = document.getElementsByName("MW");
+    var hrc = document.getElementsByName("ih");
+    hrc[0].value =   imgSrc[0].getAttribute("src");
+    alert(hrc[0].value);
+
+  } function docpyXbox()
+  {
+    var imgSrc = document.getElementsByName("Xbox");
     var hrc = document.getElementsByName("ih");
     hrc[0].value =   imgSrc[0].getAttribute("src");
     alert(hrc[0].value);
@@ -250,13 +322,13 @@
 </script>
 <!-- Lightbox Js -->
 
-<script>
+<!-- <script>
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover(); 
 
 
 });
-</script>
+</script> -->
 <script type="text/javascript">
 jQuery(function ($) {
     function changeColor(selector, colors, time) {

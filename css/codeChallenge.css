@@ -16,22 +16,25 @@ td, th {
 
 .right {
         background: #fff;
-        width: 350px;
+        max-width: 600px;
+        width: 600px;
         transition: width 1s;
         border-style:solid;
         border-color:#ccc;
         border-width:1px;
-    }    
+    } 
+.right-1{
+    background: #fff;
+    max-width: 1400px;
+    width: 1250px;
+    transition: width 1s;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+}   
 
-.left:hover {
-        width: 400px;
-    }    
     
-.item:hover {
-       background-color: #ccc;
-        border-radius: 25px;
-        padding: 2px;
-        }
+
 .item:active{
 
 }    
@@ -110,7 +113,7 @@ input[type=search]:focus {
 .question-font{
     font-family: 'Varela Round', sans-serif !important;
 }
-.large-font{    font-size: 60px;
+.large-font{    font-size: 71px;
     font-weight: 600;}
 .challenge-font{
     font-size: 45px;
@@ -142,6 +145,113 @@ input[type=search]:focus {
     transition: 1.5s;
     border-color: 
 }
+/*Skip Buttons*/
+.skip {
+    border-radius: 15px;
+    background-color: #777777;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 7%;
+}
+.skip {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-right: 125px;
+  margin-left: 40px;
+}
+pre{
+    data-html: false;
+}
+/*End of Skip Button*/
+/*CheckCode Button on Code-Challenge.html*/
+.checkButton{
+     border-radius: 15px;
+  background-color: #d60b52;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 13.333333% !important;
+  width: 18%;
+}
+.checkButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.checkButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.checkButton:hover span {
+  padding-right: 25px;
+}
+
+.checkButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.hintButton{
+border-radius: 15px;
+  background-color: #d60b52;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 40% !important;
+  width: 18%;
+}
+.hintButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.hintButton span:after {
+  content: '?';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.hintButton:hover span {
+  padding-right: 25px;
+}
+
+.hintButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*End of CheckCode*/
 
 }
 .custom-icon:hover {
@@ -164,8 +274,8 @@ input[type=search]:focus {
     height: 100px;
 }    
 .q{
-    margin-top: 40px;
-    font-size: 25px;
+    margin-top: 25px;
+    font-size: 38px;
 }
 
  .margin-tb-15{
@@ -178,17 +288,48 @@ input[type=search]:focus {
   margin-bottom: 20px;
   margin-left: 10px;
 }
-.popover, .right{
-    top: 25px!important;
+/*Popover Css*/
+.popover, .right {
+    top: 100px!important;
     left: 57px;
+    height:80%;
     display: block;
 }
-#popover-1, .arrow{
-    top: 7.4531% !important;
+.popover-content {
+  height:90%;
+  overflow-y: scroll;
+  background: #f8f8f8;
+ }
+#popover-1 {
+    top: 60% ;
 }
-.popover-2{
-    top: 19.4531% !important;
+.popover-content h2{
+    color: purple;
 }
+.popover-title{
+    padding-bottom: 12px;
+    font-size: 34px;
+}
+
+.arrow--1{
+    top: 2.5%!important;
+}
+.arrow--2{
+    top: 18%!important;
+}
+.arrow--3{
+    top: 37%!important;
+}
+.arrow--4{
+    top: 54%!important;
+}
+.arrow--5{
+    top: 71%!important;
+}
+.arrow--6{
+    top: 88%!important;
+}
+
 .side-bar-height{
     position: fixed;
 }
@@ -207,8 +348,33 @@ input[type=search]:focus {
 
 .padding-right-0{padding-right: 0px;}
 
+.padding-top-50{padding-top: 50px;color: white;}
 .padding-top-75{padding-top: 75px;}
 
 .padding-bottom-100{padding-bottom: 100px;}
 
-.margin-left-150{margin-left: 150px;}
+.margin-left-15{margin-left: 15px;}
+.margin-left-95{margin-left: 95px;}
+
+.float-r{float: right;}
+.float-l{float: left;}
+
+.bright-pink{
+    color: #e61873;
+}
+.pink-purple{
+    color: #a2185b;
+}
+
+/*class for title possition*/
+.title-pos{
+    margin-left: 15%;
+    margin-top: -4%;
+}
+/*colour Picker Css*/
+.col-xs-1{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
